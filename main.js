@@ -114,6 +114,9 @@ window.addEventListener('keydown', function(event) {
         goToPrev();
         slides[i].style.display = 'block';
     }
+    if (event.code === 'Space') {
+        next_counter += 1;
+    }
 })
 
 function automaticFunction() {
